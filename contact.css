@@ -1,0 +1,21 @@
+.contact{
+    background-image: url(./images/res.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contactdetails{
+    padding: 500px ;
+}
+
+.contactform{
+    border: 5px solid #ffffff;
+    border-radius: 50px;
+    width: 300px;
+    margin: 30px 100px 0px 500px;
+    padding: 30px 20px 20px 150px;
+    background-color:#1d0101;
+    color: gold;
+
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: #1d0101;  
+    height: 60px;
+    color: rgb(255, 255, 255); 
+}
+header h1{
+    font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+.navbar a{
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    text-decoration: none;
+    color: gold;
+}
+.button{
+    margin-right:150px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px ;
+    width: 100px;
+    background-color: gold;
+    color: #1d0101;  
+    font-size: 15px;
+    height: 50px;
+}
+.main{
+    display:flex;
+    margin: 0px 500px 0px 480px;
+    justify-content: space-between;
+    border: 1px solid #1d0101;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#1a02026d;
+}
+.main a{
+    color: #ffffff;
+}
+.homecontent{
+    padding: 50px 300px 50px 300px;
+    background-image: url(./images/res.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero{
+    height: 700px;
+    width: 1520px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/recipe.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1{
+    padding: 200px 5px 10px 0px;
+    color: gold;
+}
+.footer{
+    background-color: #1d0101;
+
+}
+.footer iframe{
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+}
+.forms {
+    display: flex;
+    margin: 50px;
+    color: aliceblue;
+}
+.footer_elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+}
+label{
+    color: gold;
+}
+input{
+    height: 20px;
+    width: 200px;
+}
+.footernavbar a{
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+    color: gold; 
+    padding: 0px 0px 0px 250px;
+}

@@ -1,0 +1,51 @@
+
+.heropage{
+    background-image: url(./images/res.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.aboutcontent{
+    padding: 50px 200px 50px 200px;
+    justify-content: space-around;
+    
+}
+.img1{
+    padding: 100px 50px 20px 250px;
+    width: 300px;
+    height: 300px;
+    
+}
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 20px 0px 30px 180px;
+  }
+  
+  .card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 10px 30px 10px 20px;
+
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: grid;
+  }
+
+  .button:hover {
+    background-color: #ffee30e1;
+  }  
+ 

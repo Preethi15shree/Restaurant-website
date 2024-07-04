@@ -1,0 +1,24 @@
+
+.cartpage{
+    background-image: url(./images/res.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1550px;
+    height: 580px;
+}
+
+footer{
+    margin: 0px 0px 0px 0px;
+    background-color: #1d0101;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+
+}
+
+.footernavbar a{
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+    color: gold; 
+    padding: 0px 0px 0px 250px;
+}
